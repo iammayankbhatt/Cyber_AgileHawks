@@ -2,7 +2,7 @@
  
 ---
 
-## Our engineered dataset link :
+
 
 Basically we did EDA and found the following details : 
 ### EDA SUMMARY REPORT: 
@@ -27,7 +27,8 @@ Basically we did EDA and found the following details :
   Label classes     : 1589
 
    </pre>
-  
+
+## Our engineered dataset link :
 And we created this new dataset 
 [https://www.kaggle.com/datasets/anshkarki/engineered-dataset](https://www.kaggle.com/datasets/anshkarki/engineered-dataset-1)
 
