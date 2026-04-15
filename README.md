@@ -24,6 +24,16 @@ Basically we did EDA and found the following details :
   Class imbalance ratio   : 1180520.0x
 </pre>
 
+#### Key observations from EDA:
+
+Dataset is extremely imbalanced, which is a major challenge
+Some features had very high correlation (>0.9) → reduced redundancy
+Presence of missing and infinite values → handled carefully during preprocessing
+No zero-variance features, but near-zero variance features were removed
+Large number of unique labels (multi-class problem)
+
+---
+
  ### Feature Engineering summary : 
  <pre>
    Final rows        : 1,768,131
@@ -32,6 +42,17 @@ Basically we did EDA and found the following details :
   Saved to          : engineered_dataset.csv
   Label map saved   : label_map.csv
    </pre>
+
+  #### What we did in Feature Engineering:
+
+Cleaned missing and infinite values
+Removed duplicates and noisy data
+Handled high correlation features
+Created additional meaningful features to improve model learning
+Encoded labels properly and saved mapping for reproducibility
+Ensured dataset is optimized for training ML models
+
+---- 
 
 ## Our engineered dataset link :
 <pre> And we created this new dataset 
