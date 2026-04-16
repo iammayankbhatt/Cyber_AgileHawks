@@ -6,6 +6,19 @@
 
 ---
 
+## To use this repo 
+<pre>1. CLone the repo
+2.Download the model from :
+</pre>
+ [https://drive.google.com/file/d/1OG4n-6pX81fsfoWUzyTOu14-MCbaMzBA/view?usp=drive_link](https://drive.google.com/file/d/1OG4n-6pX81fsfoWUzyTOu14-MCbaMzBA/view?usp=drive_link)
+ <pre>
+3. Put the model in same folder where the repo is cloned.
+4. DOwnload necessary pip files.
+4. Run the command : streamlit run app.py.
+You are good to go .
+</pre>
+
+---
 
 Basically we did EDA and found the following details : 
 
